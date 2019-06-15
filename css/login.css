@@ -1,0 +1,177 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+html
+{
+	position: relative;
+}
+body
+{
+	width: 100%;
+	height: 800px;
+	background: url('../img/login.jpg');
+	background-size: cover;
+	padding-top: 80px;
+}
+footer
+{
+	margin-top: 80px;
+}
+footer h6
+{
+	font-size: 15px;
+	color: #FFFFFF;
+}
+/*.kotak
+{
+	width: 100%;
+	padding-bottom: 100px;
+	background: #E4E7EB;
+}*/
+.kotak h2
+{
+	color: #1C366D;
+	padding-top: 100px;
+}
+hr
+{
+	width: 200px;
+	border-top: 4px solid #FFFFFF;
+	text-align: center;
+}
+.loginkiri
+{
+	background: url('../img/bg2.PNG');
+	width: 50%;
+	background-size: cover;
+	border: 4px solid #FFFFFF;
+	padding-top: 500px;
+	background-position: center;
+	/*border-top-left-radius: 1%;
+	border-bottom-left-radius: 1%;*/
+}
+.loginkanan
+{
+	background: #FFFFFF;
+	width: 50%;
+	height: 508px;
+	padding-top: 100px;
+/*	border-top-right-radius: 1%;
+	border-bottom-right-radius: 1%;*/
+}
+.container
+{
+	color: white;
+}
+.penamaan
+{
+	font-size: 18px;
+}
+.loginkanan label
+{
+	color: #4B4B4B;
+}
+.loginkanan input[type="submit"]
+{
+	width: 100%;
+	border-radius: 0px;
+	transition: .3s;
+}
+.loginkanan input[type="text"]
+{
+	transition: .7s;
+}
+.loginkanan input[type="text"]:focus
+{
+	transition: .7s;
+
+}
+.loginkanan input[type="password"]
+{
+	transition: .7s;
+
+}
+.loginkanan input[type="password"]:focus
+{
+	transition: .7s;
+
+}
+.loginkanan input
+{
+	border-radius: 0px;
+}
+/*tampilan di hp*/
+@media (max-width: 450px) 
+{
+.loginkiri
+{
+	background: url('../img/bg2.PNG');
+	width: 380px;
+	background-size: cover;
+	border: 4px solid #FFFFFF;
+	padding-top: 500px;
+	background-position: center;
+	/*border-top-left-radius: 1%;
+	border-bottom-left-radius: 1%;*/
+}
+.loginkanan
+{
+	background: #FFFFFF;
+	width: 380px;
+	height: 508px;
+	padding-top: 100px;
+/*	border-top-right-radius: 1%;
+	border-bottom-right-radius: 1%;*/
+}
+
+}
+/*tampilan di hp besar dan tablet kecil*/
+@media (min-width: 451px) and (max-width: 540px)
+		{
+.loginkiri
+{
+	background: url('../img/bg2.PNG');
+	width: 450px;
+	background-size: cover;
+	border: 3px solid #FFFFFF;
+	padding-top: 500px;
+	background-position: center;
+	/*border-top-left-radius: 1%;
+	border-bottom-left-radius: 1%;*/
+}
+.loginkanan
+{
+	background: #FFFFFF;
+	width: 450px;
+	height: 508px;
+	padding-top: 100px;
+/*	border-top-right-radius: 1%;
+	border-bottom-right-radius: 1%;*/
+}
+}
+/*tampilan di tablet sedang dan besar*/
+@media (min-width: 541px) and (max-width: 768px)
+		{
+.loginkiri
+{
+	background: url('../img/bg2.PNG');
+	width: 700px;
+	background-size: cover;
+	border: 3px solid #FFFFFF;
+	padding-top: 500px;
+	background-position: center;
+	/*border-top-left-radius: 1%;
+	border-bottom-left-radius: 1%;*/
+}
+.loginkanan
+{
+	background: #FFFFFF;
+	width: 700px;
+	height: 508px;
+	padding-top: 100px;
+/*	border-top-right-radius: 1%;
+	border-bottom-right-radius: 1%;*/
+}
+}
